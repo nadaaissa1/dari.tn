@@ -12,7 +12,6 @@ import GestionUtilisateur.dari.tn.entity.User;
 import GestionUtilisateur.dari.tn.repository.UserRepository;
 import GestionUtilisateur.dari.tn.service.UserServiceImpl;
 
-
 @Service
 public class UserServiceImpl implements UserService {
 	
@@ -64,7 +63,7 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public User updateUser(User u) {
 		// TODO Auto-generated method stub
-		return null;
+		return userRepository.save(u);
 	}
 
 	@Override

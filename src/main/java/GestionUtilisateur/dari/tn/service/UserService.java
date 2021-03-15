@@ -9,7 +9,7 @@ import GestionUtilisateur.dari.tn.entity.User;
 public interface UserService {
 	
 	List<User> retrieveAllUsers();
-	
+
 	User addUser(User u);
 	
 	void deleteUser(String id);
@@ -19,8 +19,7 @@ public interface UserService {
 	User retrieveUser(String id);
 
 	User getUserById(long id);
-
-
+	
 	void deleteUserById(long id);
 
 

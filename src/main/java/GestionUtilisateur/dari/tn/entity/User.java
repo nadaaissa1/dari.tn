@@ -150,5 +150,10 @@ public class User implements Serializable {
 		this.telephone = telephone;
 	}
 
+	public void setRole(Role role) {
+		// TODO Auto-generated method stub
+		this.role = role;
+	}
+
 }
 
